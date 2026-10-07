@@ -16,7 +16,8 @@
     </a>
     <div class="tagline">All Ages &nbsp;•&nbsp; All Skill Levels &nbsp;•&nbsp; Friendly &nbsp;•&nbsp; Family Friendly</div>
   </div>
-  <nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="club-nav" onclick="const nav=document.getElementById('club-nav'); const open=nav.classList.toggle('open'); this.setAttribute('aria-expanded',open);">☰ Menu</button>
+  <nav id="club-nav">
     <a class="active" href="#home">Home</a>
     <a href="#news">News</a>
     <a href="#tournaments">Tournaments &amp; Stats</a>
