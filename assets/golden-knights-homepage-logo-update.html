@@ -1,0 +1,152 @@
+<!DOCTYPE html>f
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Golden Knights Chess Club</title>
+<meta name="description" content="Golden Knights Chess Club — two chapters, one club. Chess for everyone in Severna Park and Annapolis, Maryland.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand-row">
+    <a class="brand" href="#home">
+      <img src="assets/golden-knights-crest.png" alt="Golden Knights Chess Club crest">
+      <span><b>GOLDEN KNIGHTS</b><em>CHESS CLUB</em></span>
+    </a>
+    <div class="tagline">All Ages &nbsp;•&nbsp; All Skill Levels &nbsp;•&nbsp; Friendly &nbsp;•&nbsp; Family Friendly</div>
+  </div>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="club-nav" onclick="const nav=document.getElementById('club-nav'); const open=nav.classList.toggle('open'); this.setAttribute('aria-expanded',open);">☰ Menu</button>
+  <nav id="club-nav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="dan-bartley-memorial-fall-tournament-2026.html">Tournaments &amp; Stats</a>
+    <a href="#members">Featured Members</a>
+    <a href="golden-knights-puzzle-of-the-week.html">Puzzle of the Week</a>
+    <a href="#archive">Puzzle Archive</a>
+    <a href="#events">Events</a>
+    <a href="#about">About</a>
+    <a href="#locations">Locations / Join</a>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>TWO CHAPTERS,<br>ONE CLUB</h1>
+      <div class="gold-rule"></div>
+      <div class="chapters"><span>Severna Park</span><b>♞</b><span>Annapolis</span></div>
+      <blockquote>“Every chess master was once a beginner.”<cite>— Irving Chernev</cite></blockquote>
+    </div>
+    <div class="hero-photo" style="background:#000;"><img src="assets/golden-knights-home-logo.png" alt="Golden Knights Chess Club logo" style="width:100%;height:100%;object-fit:contain;background:#000;"></div>
+  </section>
+
+  <section class="chapter-bar" id="locations">
+    <article class="chapter">
+      <div class="chapter-icon crest-icon"><img src="assets/golden-knights-crest.png" alt="Golden Knights crest"></div>
+      <div>
+        <h2>Severna Park Chapter</h2>
+        <p><strong>Sundays, Tuesdays &amp; Thursdays at 1:00 PM</strong></p>
+        <p>Starbucks<br>503 Ritchie Hwy, Severna Park, MD 21146</p>
+      </div>
+    </article>
+    <div class="divider"></div>
+    <article class="chapter">
+      <div class="chapter-icon crab-icon"><img src="assets/annapolis-crab.png" alt="Crab illustration"></div>
+      <div>
+        <h2>Annapolis Chapter</h2>
+        <p><strong>Tuesdays 5:00–9:00 PM</strong></p>
+        <p>Whole Foods Food Court<br>200 Harker Place, Suite 100, Annapolis, MD 21401</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="content-wrap" id="news">
+    <div class="top-grid">
+      <article class="panel news-panel">
+        <header><span class="panel-icon">▣</span><h2>Latest Club News</h2><a href="#news">View All →</a></header>
+        <div class="news-item">
+  <time>OCT 10, 2026</time>
+  <div>
+    <h3>Happy National Chess Day!</h3>
+    <p>Today marks the 50th anniversary of National Chess Day, first recognized by President Gerald Ford in 1976. The Golden Knights Chess Club celebrates the wonderful game that brings us together. Whether you're a beginner or a seasoned player, come join us for a game and make some new friends! Come for the chess, stay for the people.</p>
+  </div>
+</div>
+        <div class="news-item"><time>OCT 4, 2026</time><div><h3>Severna Park Chapter Fall Tournament Begins</h3><p>The Fall Tournament gets underway today at the Severna Park chapter.</p></div></div>
+        <div class="news-item"><time>—</time><div><h3>Club News</h3><p>New announcements and member news will appear here.</p></div></div>
+        <div class="news-item"><time>—</time><div><h3>Chess at the Golden Knights</h3><p>Check back for upcoming club updates.</p></div></div>
+      </article>
+
+      <article class="panel puzzle-panel" id="puzzle">
+  <header>
+    <span class="panel-icon">♞</span>
+    <h2>Puzzle of the Week</h2>
+  </header>
+
+  <div style="padding: 30px 20px; text-align: center;">
+    <h3>Think you've got what it takes?</h3>
+
+    <p>
+      Test your tactical skills with our interactive
+      chess challenge. Play as White or Black and
+      find the winning combination!
+    </p>
+
+    <a href="golden-knights-puzzle-of-the-week.html"
+       style="display:inline-block; margin-top:18px;
+       padding:14px 24px; background:#d9b54a;
+       color:#111; font-weight:bold; text-decoration:none;">
+      Play This Week's Puzzle →
+    </a>
+  </div>
+</article>
+      <article class="panel member-panel" id="members">
+        <header><span class="panel-icon">●</span><h2>Featured Member</h2></header>
+        <img class="dan" src="assets/dan-bartley.jpg" alt="Dan Bartley holding a trophy">
+        <h2 class="dan-name">Dan Bartley</h2>
+        <div class="dates">1950 – 2025</div>
+        <p>A cherished member, friend, and true Golden Knight. Dan’s kindness, encouragement, and love for the game made our club stronger. He will be missed by all who knew him.</p>
+      </article>
+    </div>
+
+    <div class="lower-grid">
+      <article class="panel list-panel" id="tournaments">
+        <header><span class="panel-icon">♜</span><h2>Club Archive</h2><a href="#tournaments">View All →</a></header>
+        <div class="list-row"><div><b>Past Tournament Results</b><small>Results and standings from Golden Knights tournaments.</small></div><time>—</time></div>
+        <div class="list-row"><div><b>Golden Knights History</b><small>Find out about the history of our club.</small></div><time>—</time></div>
+        <div class="list-row"><div><b>Photos</b><small>See our members, past and present.</small></div><time>—</time></div>
+      </article>
+
+      <article class="panel list-panel" id="events">
+        <header><span class="panel-icon">▦</span><h2>Club Meeting Times and Locations</h2><a href="#events">View All →</a></header>
+        <div class="list-row"><div><b>Severna Park Chapter</b><small>Sunday • Tuesday • Thursday • 1:00 PM • Starbucks</small></div><time>Weekly</time></div>
+        <div class="list-row"><div><b>Annapolis Chapter</b><small>Tuesday • 5:00–9:00 PM • Whole Foods Food Court</div><time>Weekly</time></div>
+        <div class="list-row"><div><b>Play on Chess.com</b><small> • Place Holder for Link • </small></div><time>24/7</time></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="new-chess" id="about">
+    <div><span class="people">♟♟♟</span><div><h2>New to Chess?</h2><p>All skill levels are welcome — from complete beginners to masters!</p></div></div>
+    <a href="#about">Learn More →</a>
+  </section>
+</main>
+<section id="contact" style="text-align:center; padding:35px 20px; background:#f5edda; border-top:2px solid #d9b54a;">
+  <h2>Contact the Golden Knights</h2>
+  <p>Questions about joining, meeting times, or tournaments? We'd love to hear from you!</p>
+  <a href="mailto:goldenknightschess2026@gmail.com"
+     style="display:inline-block; margin-top:12px; padding:14px 26px; background:#d9b54a; color:#111; font-weight:bold; text-decoration:none;">
+    Email the Club &#9993;
+  </a>
+  <p style="margin-top:15px; font-size:14px;">
+    goldenknightschess2026@gmail.com
+  </p>
+</section>
+<footer>
+  <div class="footer-brand"><img src="assets/golden-knights-crest.png" alt=""><span><b>GOLDEN KNIGHTS</b><em>CHESS CLUB</em></span></div>
+  <div class="motto">Come for the chess, stay for the people.</div>
+  <div class="footer-links"><a href="#news">News</a><a href="#tournaments">Tournaments</a><a href="#members">Members</a><a href="#archive">Puzzle Archive</a></div>
+</footer>
+<div id="archive" class="sr-only">Puzzle Archive</div>
+</body>
+</html>
