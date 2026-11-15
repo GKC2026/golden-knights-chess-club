@@ -1,0 +1,56 @@
+{
+  "format": "golden-knights-puzzle-v1",
+  "title": "Puzzle 001 — The Jig Is Up!",
+  "side": "b",
+  "goal": "Black to move — find the winning combination",
+  "castling": "-",
+  "pieces": {
+    "b7": "bP",
+    "c6": "bP",
+    "d5": "bP",
+    "f7": "bP",
+    "h5": "bP",
+    "e7": "bQ",
+    "h7": "bK",
+    "b6": "wR",
+    "a5": "wP",
+    "b3": "wP",
+    "a2": "wK",
+    "b2": "wR",
+    "d1": "bR",
+    "f2": "bQ",
+    "h2": "wP",
+    "g3": "wP",
+    "g6": "bB"
+  },
+  "moves": [
+    [
+      "g6",
+      "b1"
+    ],
+    [
+      "a2",
+      "a1"
+    ],
+    [
+      "e7",
+      "a3"
+    ]
+  ],
+  "lines": [
+    [
+      [
+        "g6",
+        "b1"
+      ],
+      [
+        "a2",
+        "a1"
+      ],
+      [
+        "e7",
+        "a3"
+      ]
+    ]
+  ]
+}
