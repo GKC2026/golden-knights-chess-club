@@ -1,0 +1,80 @@
+{
+  "format": "golden-knights-puzzle-v1",
+  "title": "Puzzle 002 — Escape From White",
+  "side": "b",
+  "goal": "Black, currently in check, must move.",
+  "castling": "-",
+  "pieces": {
+    "g1": "wK",
+    "h2": "wP",
+    "b4": "wP",
+    "e2": "bQ",
+    "f3": "bP",
+    "g4": "bK",
+    "h7": "bP",
+    "g6": "bP",
+    "d7": "wQ"
+  },
+  "moves": [
+    [
+      "g4",
+      "g5"
+    ],
+    [
+      "d7",
+      "d8"
+    ],
+    [
+      "g5",
+      "h5"
+    ],
+    [
+      "d8",
+      "d5"
+    ],
+    [
+      "h5",
+      "h6"
+    ],
+    [
+      "d5",
+      "f3"
+    ],
+    [
+      "e2",
+      "f3"
+    ]
+  ],
+  "lines": [
+    [
+      [
+        "g4",
+        "g5"
+      ],
+      [
+        "d7",
+        "d8"
+      ],
+      [
+        "g5",
+        "h5"
+      ],
+      [
+        "d8",
+        "d5"
+      ],
+      [
+        "h5",
+        "h6"
+      ],
+      [
+        "d5",
+        "f3"
+      ],
+      [
+        "e2",
+        "f3"
+      ]
+    ]
+  ]
+}
